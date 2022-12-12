@@ -23,7 +23,6 @@ tg.sendData(JSON.stringify(data))
             tg.offEvent('mainButtonClicked', onSendData)
         }
     }, [onSendData])
-
     useEffect(() => {
 tg.MainButton.setParams({
     text: 'Отправить данные'
